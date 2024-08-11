@@ -30,7 +30,7 @@ function activate(context) {
 		vscode.StatusBarAlignment.Right,
 		100
 	  );
-	  statusBarItem.text = 'Open Pinggy';
+	  statusBarItem.text = '$(globe) Open Pinggy';
 	  statusBarItem.command = 'sharepinggytunnel.openpinggy';
 	  statusBarItem.tooltip = 'Click to open pinggy tunnel';
 	  statusBarItem.show();
